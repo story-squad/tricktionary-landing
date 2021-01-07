@@ -1,0 +1,29 @@
+.landing-splash {
+  height: 50vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+
+  div {
+    font-family: $text-font;
+    color: $white;
+    font-size: 3rem;
+    &:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+
+    &.typing-text {
+      .blink {
+        opacity: 1;
+        transition: opacity 0.65s ease-out;
+        &.off {
+          opacity: 0;
+          transition: opacity 0.65s ease-in;
+        }
+      }
+    }
+  }
+}
