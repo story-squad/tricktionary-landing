@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
-const wordList: string[] = [' Turbocharge ', ' Empower ', ' Unleash '];
+const wordList: string[] = ['Turbocharge', 'Empower', 'Unleash'];
 
 const TypingText = (): React.ReactElement => {
   const [text, setText] = useState('');
@@ -13,14 +13,15 @@ const TypingText = (): React.ReactElement => {
   const toggleBlinker = () => setBlinkerVisible((cur) => !cur);
 
   const tick = () => {
-    const fullText = wordListMemo[current];
-    if (back) setText((cur) => fullText.substring(0, cur.length - 1));
-    else setText((cur) => fullText.substring(0, cur.length + 1));
+    if (back)
+      setText((cur) => wordListMemo[current].substring(0, cur.length - 1));
+    else setText((cur) => wordListMemo[current].substring(0, cur.length + 1));
 
     setTiming(200 - Math.random() * 100);
+  };
 
-    console.log({ text, current, back });
-    if (!back && text === fullText) {
+  useEffect(() => {
+    if (!back && text === wordListMemo[current]) {
       setTiming(2000);
       setBack(true);
     } else if (back && text === '') {
@@ -28,9 +29,6 @@ const TypingText = (): React.ReactElement => {
       setBack(false);
       setCurrent((cur) => (cur === wordListMemo.length - 1 ? 0 : cur + 1));
     }
-  };
-
-  useEffect(() => {
     setTimeout(tick, timing);
   }, [text, back]);
 
@@ -40,9 +38,11 @@ const TypingText = (): React.ReactElement => {
   }, [blinkerVisible]);
 
   return (
-    <div className="typing-text">
-      {text}
+    <div className="typing-text-wrapper">
+      <span className="typing-text">{text}</span>
       <span className={`blink${blinkerVisible ? '' : ' off'}`}>|</span>
+      <br />
+      your kid&apos;s creativity!
     </div>
   );
 };
