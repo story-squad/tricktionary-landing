@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from '../../common';
 import { LandingSplash } from './LandingSplash';
 import { PhotoBar } from './PhotoBar';
+import { PlayGame } from './PlayGame';
 import { Testimonials } from './Testimonials';
 
 const RenderLandingPage = (): React.ReactElement => {
@@ -12,6 +13,7 @@ const RenderLandingPage = (): React.ReactElement => {
         <LandingSplash />
         <Testimonials />
         <PhotoBar />
+        <PlayGame />
       </div>
     </div>
   );

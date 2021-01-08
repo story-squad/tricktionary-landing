@@ -8,7 +8,7 @@ const Header = (): React.ReactElement => {
         <Link to="/">Story Squad</Link>
       </h1>
       <nav>
-        <Link to="/games">Games</Link>
+        <a href="http://contest.storysquad.app">Play Now!</a>
       </nav>
     </div>
   );

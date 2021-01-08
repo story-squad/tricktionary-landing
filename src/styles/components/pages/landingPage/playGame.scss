@@ -1,0 +1,23 @@
+.play-game {
+  padding: 3rem 3rem 5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  h2 {
+    font-size: 3rem;
+    font-family: $display-font;
+    color: $white;
+    margin-bottom: 3rem;
+    @include text-shadow;
+    @include bp(small) {
+      font-size: 3.6rem;
+    }
+    @include bp(mid) {
+      font-size: 4.4rem;
+    }
+  }
+  a {
+    @include button($orange);
+    font-size: 2rem;
+  }
+}

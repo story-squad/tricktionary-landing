@@ -15,10 +15,12 @@
       line-height: 3rem;
       color: $white;
       text-decoration: none;
-      transition: all 0.2s ease-in-out;
+      @include text-shadow;
+
+      transition: all 0.25s ease-in-out;
       &:hover {
-        transition: all 0.2s ease-in-out;
-        @include text-shadow;
+        transition: all 0.25s ease-in-out;
+        color: fade-out($white, 0.15);
       }
     }
   }
@@ -29,12 +31,14 @@
       font-size: 1.8rem;
       line-height: 1.8rem;
       text-decoration: none;
+      @include text-shadow;
 
-      transition: all 0.2s ease-in-out;
+      transition: all 0.25s ease-in-out;
       &:hover {
-        transition: all 0.2s ease-in-out;
-        @include text-shadow;
+        transition: all 0.25s ease-in-out;
+        color: fade-out($white, 0.15);
       }
+
       &.active {
         text-decoration: underline;
       }
