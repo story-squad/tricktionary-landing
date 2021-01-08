@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   flex-flow: column nowrap;
+  @include drop-shadow;
 
   @include bp(mid) {
     flex-direction: row;
