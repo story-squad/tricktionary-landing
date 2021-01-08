@@ -2,45 +2,50 @@
   height: 5rem;
   background-color: $orange;
   width: 100%;
-  padding: 1rem 5%;
+  .header-content {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    padding: 1rem 2rem;
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  h1 {
-    a {
-      font-family: $display-font;
-      font-size: 3rem;
-      line-height: 3rem;
-      color: $white;
-      text-decoration: none;
-      @include text-shadow;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      a {
+        font-family: $display-font;
+        font-size: 3rem;
+        line-height: 3rem;
+        color: $white;
+        text-decoration: none;
+        @include text-shadow;
 
-      transition: all 0.25s ease-in-out;
-      &:hover {
         transition: all 0.25s ease-in-out;
-        color: fade-out($white, 0.15);
+        &:hover {
+          transition: all 0.25s ease-in-out;
+          color: fade-out($white, 0.15);
+        }
       }
     }
-  }
-  nav {
-    font-family: $text-font;
-    a {
-      color: $white;
-      font-size: 1.8rem;
-      line-height: 1.8rem;
-      text-decoration: none;
-      @include text-shadow;
+    nav {
+      font-family: $text-font;
+      a {
+        color: $white;
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        text-decoration: none;
+        @include text-shadow;
 
-      transition: all 0.25s ease-in-out;
-      &:hover {
         transition: all 0.25s ease-in-out;
-        color: fade-out($white, 0.15);
-      }
+        &:hover {
+          transition: all 0.25s ease-in-out;
+          color: fade-out($white, 0.15);
+        }
 
-      &.active {
-        text-decoration: underline;
+        &.active {
+          text-decoration: underline;
+        }
       }
     }
   }
