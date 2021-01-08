@@ -1,0 +1,63 @@
+.photo-bar {
+  padding: 2rem;
+  @include bp(tablet) {
+    padding: 2rem 1rem;
+  }
+  background-color: $jade;
+  @include drop-shadow;
+  h2 {
+    font-family: $display-font;
+    color: $white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    @include text-shadow;
+    @include bp(mid) {
+      font-size: 4rem;
+    }
+    @include bp(tablet) {
+      font-size: 5rem;
+    }
+  }
+  .photo-bar-gallery {
+    display: flex;
+    flex-flow: column nowrap;
+    @include bp(tablet) {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: stretch;
+    }
+    .photo-card {
+      padding: 1rem;
+      background-color: $white;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
+      &:not(:last-of-type) {
+        margin-bottom: 2rem;
+      }
+      @include drop-shadow;
+      @include bp(tablet) {
+        width: 30%;
+        margin-bottom: 0 !important;
+      }
+      img {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      p {
+        padding: 0 1rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-family: $text-font;
+        color: $charcoal;
+        flex-grow: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-style: italic;
+      }
+    }
+  }
+}

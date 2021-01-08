@@ -1,6 +1,7 @@
 .landing-page {
   @import './landingSplash.scss';
   @import './testimonials.scss';
+  @import './photoBar.scss';
 
   & > div {
     width: 800px;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from '../../common';
 import { LandingSplash } from './LandingSplash';
+import { PhotoBar } from './PhotoBar';
 import { Testimonials } from './Testimonials';
 
 const RenderLandingPage = (): React.ReactElement => {
@@ -10,6 +11,7 @@ const RenderLandingPage = (): React.ReactElement => {
       <div className="landing-page">
         <LandingSplash />
         <Testimonials />
+        <PhotoBar />
       </div>
     </div>
   );
