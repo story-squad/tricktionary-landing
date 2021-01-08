@@ -1,10 +1,12 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
+import { SEO } from './components/common';
 import { LandingPage } from './components/pages/LandingPage';
 
 const App = (): React.ReactElement => {
   return (
     <div className="App">
+      <SEO />
       <Switch>
         {/* Public Routes */}
         <Route exact path="/" component={LandingPage} />
