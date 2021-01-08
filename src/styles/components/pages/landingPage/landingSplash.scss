@@ -1,34 +1,62 @@
 .landing-splash {
-  width: 100%;
-  padding: 5rem 2rem;
+  padding: 2rem;
+  background-color: $jade;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: column nowrap;
 
-  div {
+  @include bp(mid) {
+    flex-direction: row;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    @include drop-shadow;
+
+    @include bp(mid) {
+      max-width: 50%;
+    }
+  }
+
+  .typing-text-wrapper {
     font-family: $text-font;
     color: $white;
-    font-size: 3rem;
-    &:not(:last-of-type) {
-      margin-bottom: 1rem;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    @include text-shadow;
+    @include bp(small) {
+      font-size: 3rem;
+      line-height: 3.6rem;
+    }
+    @include bp(mid) {
+      width: 50%;
+      padding-right: 1rem;
+      margin-bottom: 0;
+    }
+    @include bp(tablet) {
+      font-size: 3.6rem;
+      line-height: 4.2rem;
     }
 
-    &.typing-text-wrapper {
-      line-height: 4rem;
-      font-weight: 200;
-      font-style: italic;
-      .typing-text {
-        font-weight: 500;
-      }
-      .blink {
-        opacity: 1;
-        transition: opacity 0.65s ease-out;
-        &.off {
-          opacity: 0;
-          transition: opacity 0.65s ease-in;
-        }
+    .typing-text {
+      font-weight: 500;
+    }
+    .blink {
+      opacity: 1;
+      transition: opacity 0.65s ease-out;
+      &.off {
+        opacity: 0;
+        transition: opacity 0.65s ease-in;
       }
     }
   }

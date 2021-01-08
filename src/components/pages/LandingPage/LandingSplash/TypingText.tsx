@@ -17,7 +17,7 @@ const TypingText = (): React.ReactElement => {
       setText((cur) => wordListMemo[current].substring(0, cur.length - 1));
     else setText((cur) => wordListMemo[current].substring(0, cur.length + 1));
 
-    setTiming(200 - Math.random() * 100);
+    setTiming((200 - Math.random() * 100) / (back ? 2 : 1));
   };
 
   useEffect(() => {
@@ -39,10 +39,12 @@ const TypingText = (): React.ReactElement => {
 
   return (
     <div className="typing-text-wrapper">
-      <span className="typing-text">{text}</span>
-      <span className={`blink${blinkerVisible ? '' : ' off'}`}>|</span>
-      <br />
-      your kid&apos;s creativity!
+      <p>
+        <span className="typing-text">{text}</span>
+        <span className={`blink${blinkerVisible ? '' : ' off'}`}>|</span>
+        <br />
+        your kid&apos;s creativity!
+      </p>
     </div>
   );
 };

@@ -1,0 +1,29 @@
+$small: 350px;
+$mid: 500px;
+$tablet: 650px;
+$large: 800px;
+$xl: 1000px;
+
+@mixin bp($point) {
+  @if $point == small {
+    @media screen and (min-width: $small) {
+      @content;
+    }
+  } @else if $point == mid {
+    @media screen and (min-width: $mid) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media screen and (min-width: $tablet) {
+      @content;
+    }
+  } @else if $point == large {
+    @media screen and (min-width: $large) {
+      @content;
+    }
+  } @else if $point == xl {
+    @media screen and (min-width: $xl) {
+      @content;
+    }
+  }
+}

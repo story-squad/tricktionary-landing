@@ -1,0 +1,64 @@
+.testimonials {
+  padding: 2rem;
+
+  @include bp(tablet) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .testimonial-card {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: $white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    @include drop-shadow;
+    @include bp(tablet) {
+      width: 31.5%;
+    }
+
+    .quote {
+      font-family: $text-font;
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+      line-height: 2rem;
+      @include bp(small) {
+        line-height: 2.4rem;
+      }
+
+      em {
+        font-style: italic;
+      }
+      strong {
+        font-weight: 600;
+        color: $orange;
+      }
+      span {
+        white-space: nowrap;
+      }
+    }
+
+    .user-info {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      h3 {
+        font-family: $text-font;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+      }
+      img {
+        height: 4rem;
+        width: 4rem;
+        margin-right: 1rem;
+        object-fit: cover;
+        border-radius: 2rem;
+        @include drop-shadow;
+      }
+    }
+  }
+}

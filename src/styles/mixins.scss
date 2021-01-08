@@ -4,6 +4,10 @@
   -moz-box-shadow: 0 4px 4px $color;
 }
 
+@mixin text-shadow($color: #0005) {
+  text-shadow: 0 2px 2px $color;
+}
+
 // The power of mixins! All your buttons should be consistent with this.
 @mixin button(
   $bgcolor: $blue,
