@@ -15,6 +15,11 @@
       line-height: 3rem;
       color: $white;
       text-decoration: none;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transition: all 0.2s ease-in-out;
+        @include text-shadow;
+      }
     }
   }
   nav {
@@ -22,9 +27,14 @@
     a {
       color: $white;
       font-size: 1.8rem;
-      line-height: 3rem;
+      line-height: 1.8rem;
       text-decoration: none;
 
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transition: all 0.2s ease-in-out;
+        @include text-shadow;
+      }
       &.active {
         text-decoration: underline;
       }

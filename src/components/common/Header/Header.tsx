@@ -7,7 +7,9 @@ const Header = (): React.ReactElement => {
       <h1>
         <Link to="/">Story Squad</Link>
       </h1>
-      <nav></nav>
+      <nav>
+        <Link to="/games">Games</Link>
+      </nav>
     </div>
   );
 };
