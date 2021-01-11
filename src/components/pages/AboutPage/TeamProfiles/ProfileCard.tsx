@@ -7,13 +7,17 @@ const ProfileCard = (props: {
   const { profile } = props;
   return (
     <div className="profile-card">
-      <div className="profile-info">
-        <h3>{profile.name}</h3>
-        <p>{profile.role}</p>
-        <p>{profile.bio}</p>
-      </div>
       <div className="profile-img-wrapper">
         <img src={profile.photo} alt={`photo of ${profile.name}`} />
+      </div>
+      <div className="profile-name-role">
+        <h3>{profile.name}</h3>
+        <p>
+          <strong>{profile.role}</strong>
+        </p>
+      </div>
+      <div className="profile-bio">
+        <p>{profile.bio}</p>
       </div>
     </div>
   );
