@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from '../../common';
+import { TeamProfiles } from './TeamProfiles';
 
 const RenderAboutPage = (): React.ReactElement => {
   return (
@@ -16,6 +17,7 @@ const RenderAboutPage = (): React.ReactElement => {
           </p>
         </div>
         <h2>Meet the Team</h2>
+        <TeamProfiles />
       </div>
     </div>
   );
