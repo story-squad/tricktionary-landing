@@ -1,0 +1,33 @@
+.about-page {
+  & > div {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .content-wrapper {
+    padding: 2rem;
+    background-color: $jade;
+    @include drop-shadow;
+  }
+  h2 {
+    font-family: $display-font;
+    color: $white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem auto 2rem;
+    @include text-shadow;
+    @include bp(mid) {
+      font-size: 4rem;
+    }
+    @include bp(tablet) {
+      font-size: 5rem;
+    }
+  }
+  p {
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: $text-font;
+    color: $white;
+  }
+}
