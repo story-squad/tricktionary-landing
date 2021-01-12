@@ -19,7 +19,7 @@
     // Grid layouts, media queries
     grid-template-columns: 50% 50%;
     @include bp(mid) {
-      grid-template-columns: 30% 70%;
+      grid-template-columns: 16rem auto;
       grid-template-rows: 5rem auto;
     }
     @include bp(large) {
@@ -69,8 +69,8 @@
       @include drop-shadow;
 
       @include bp(small) {
-        width: 15rem;
-        height: 15rem;
+        width: 14rem;
+        height: 14rem;
       }
       @include bp(mid) {
         grid-row-end: span 2;
