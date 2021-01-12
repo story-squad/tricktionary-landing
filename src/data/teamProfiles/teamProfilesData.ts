@@ -1,5 +1,15 @@
 import { TeamProfileItem } from './teamProfilesTypes';
 import dragonProfile from '../../assets/dragon-profile.png';
+import benProfile from '../../assets/ben-profile.png';
+import brandonProfile from '../../assets/brandon-profile.png';
+import ajProfile from '../../assets/aj-profile.png';
+import drewProfile from '../../assets/drew-profile.png';
+import haileyProfile from '../../assets/hailey-profile.png';
+import harperProfile from '../../assets/harper-profile.png';
+import jesseProfile from '../../assets/jesse-profile.png';
+import jorgeProfile from '../../assets/jorge-profile.png';
+import lucasProfile from '../../assets/lucas-profile.png';
+import trevorProfile from '../../assets/trevor-profile.png';
 
 export const teamProfiles: TeamProfileItem[] = [
   {
@@ -11,63 +21,63 @@ export const teamProfiles: TeamProfileItem[] = [
   {
     name: 'Benjamin Griffin',
     role: 'Product Manager',
-    photo: dragonProfile,
+    photo: benProfile,
     bio: 'Fullstack Web Developer, San Francisco',
   },
   {
     name: 'Brandon Ramirez',
     role: 'Frontend Lead',
-    photo: dragonProfile,
+    photo: brandonProfile,
     bio:
       'Full-Stack Web Developer in the Bay Area. Node, React, Deno, TypeScript.',
   },
   {
     name: 'AJ Gebara',
     role: 'Backend Engineer',
-    photo: dragonProfile,
+    photo: ajProfile,
     bio: '',
   },
   {
     name: 'Drew Ross',
     role: 'Frontend Engineer',
-    photo: dragonProfile,
+    photo: drewProfile,
     bio:
       'Coffee, climbing, and coding. Fullstack Engineer in the Pacific Northwest.',
   },
   {
     name: 'Hailey Hansard',
     role: 'Frontend Engineer',
-    photo: dragonProfile,
+    photo: haileyProfile,
     bio: '',
   },
   {
     name: 'Harper Atlas',
     role: 'UX/UI Desiger',
-    photo: dragonProfile,
+    photo: harperProfile,
     bio: '',
   },
   {
     name: 'Jesse Marek',
     role: 'Frontend Engineer',
-    photo: dragonProfile,
+    photo: jesseProfile,
     bio: '',
   },
   {
     name: 'Jorge Manzur',
     role: 'Frontend Engineer',
-    photo: dragonProfile,
+    photo: jorgeProfile,
     bio: `I'm an individual that enjoys working collectively towards a goal. I embrace challenges and opportunities for personal growth. I see programming as an engineering tool that provides solutions that can improve many people's life, and I'm excited to be part of this promising industry.`,
   },
   {
     name: 'Lucas Greenwell',
     role: 'Growth Analyst',
-    photo: dragonProfile,
+    photo: lucasProfile,
     bio: `I like technology, teaching, traveling, and granola!`,
   },
   {
     name: 'Trevor Martin',
     role: 'Full Stack Engineer',
-    photo: dragonProfile,
+    photo: trevorProfile,
     bio: ``,
   },
   {
