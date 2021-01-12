@@ -2,51 +2,88 @@ import { TeamProfileItem } from './teamProfilesTypes';
 
 export const teamProfiles: TeamProfileItem[] = [
   {
-    name: 'Dragon Boi 1',
-    role: 'Frontend Engineer',
+    name: 'Graig Peterson',
+    role: 'Founder',
     photo:
       'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
-    bio:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero massa, dictum eu pharetra nec, ullamcorper ac elit. Ut id est tortor. In in hendrerit leo, eu sollicitudin orci.',
+    bio: `As a 6th Grade teacher, Graig watched the way  Fortnite and Tiktok were structuring his students' lives the moment the bell rang. He designed Story Squad to be an alternative to apps heavy on screen-time that aim to maximize a user's time-on-device; instead, Story Squad uses small servings of screen-time to maximize the time a kid spends in "imagination-mode" with a pencil in hand writing adventures and building worlds.`,
   },
   {
-    name: 'Dragon Boi 2',
-    role: 'Frontend Engineer',
+    name: 'Benjamin Griffin',
+    role: 'Product Manager',
     photo:
       'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
-    bio:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero massa, dictum eu pharetra nec, ullamcorper ac elit. Ut id est tortor. In in hendrerit leo, eu sollicitudin orci.',
+    bio: 'Fullstack Web Developer, San Francisco',
   },
   {
-    name: 'Dragon Boi 3',
-    role: 'Frontend Engineer',
+    name: 'Brandon Ramirez',
+    role: 'Frontend Lead',
     photo:
       'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
     bio:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero massa, dictum eu pharetra nec, ullamcorper ac elit. Ut id est tortor. In in hendrerit leo, eu sollicitudin orci.',
+      'Full-Stack Web Developer in the Bay Area. Node, React, Deno, TypeScript.',
   },
   {
-    name: 'Dragon Boi 4',
-    role: 'Frontend Engineer',
+    name: 'AJ Gebara',
+    role: 'Backend Engineer',
     photo:
       'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
-    bio:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero massa, dictum eu pharetra nec, ullamcorper ac elit. Ut id est tortor. In in hendrerit leo, eu sollicitudin orci.',
+    bio: '',
   },
   {
-    name: 'Dragon Boi 5',
+    name: 'Drew Ross',
     role: 'Frontend Engineer',
     photo:
       'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
-    bio:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero massa, dictum eu pharetra nec, ullamcorper ac elit. Ut id est tortor. In in hendrerit leo, eu sollicitudin orci.',
+    bio: 'Coffee, climbing, and coding.',
   },
   {
-    name: 'Dragon Boi 6',
+    name: 'Hailey Hansard',
     role: 'Frontend Engineer',
     photo:
       'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
-    bio:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum libero massa, dictum eu pharetra nec, ullamcorper ac elit. Ut id est tortor. In in hendrerit leo, eu sollicitudin orci.',
+    bio: '',
+  },
+  {
+    name: 'Harper Atlas',
+    role: 'UX/UI Desiger',
+    photo:
+      'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
+    bio: '',
+  },
+  {
+    name: 'Jesse Marek',
+    role: 'Frontend Engineer',
+    photo:
+      'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
+    bio: '',
+  },
+  {
+    name: 'Jorge Manzur',
+    role: 'Frontend Engineer',
+    photo:
+      'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
+    bio: `I'm an individual that enjoys working collectively towards a goal. I embrace challenges and opportunities for personal growth. I see programming as an engineering tool that provides solutions that can improve many people's life, and I'm excited to be part of this promising industry.`,
+  },
+  {
+    name: 'Lucas Greenwell',
+    role: 'Growth Analyst',
+    photo:
+      'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
+    bio: `I like technology, teaching, traveling, and granola!`,
+  },
+  {
+    name: 'Trevor Martin',
+    role: 'Full Stack Engineer',
+    photo:
+      'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
+    bio: ``,
+  },
+  {
+    name: 'Victoria Gu',
+    role: 'Marketer',
+    photo:
+      'https://fdsc-development.netlify.app/static/media/dragon-boi.d21c7981.svg',
+    bio: ``,
   },
 ];
