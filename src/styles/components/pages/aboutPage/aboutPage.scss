@@ -29,9 +29,16 @@
     font-family: $text-font;
   }
   .mission-statement {
-    font-style: italic;
+    margin-bottom: 2rem;
+    color: $white;
     font-size: 2.8rem;
     text-align: center;
+    font-weight: 400;
+    @include text-shadow;
+  }
+  .info-text {
+    font-weight: 300;
+    letter-spacing: 0.035rem;
   }
   .content-wrapper {
     padding: 2rem;
