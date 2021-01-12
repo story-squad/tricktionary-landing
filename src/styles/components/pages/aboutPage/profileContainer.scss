@@ -22,12 +22,12 @@
       grid-template-columns: 30% 70%;
       grid-template-rows: 5rem auto;
     }
-    @include bp(tablet) {
+    @include bp(large) {
       display: flex;
       flex-flow: column nowrap;
     }
 
-    // Flip even-numbered card layout on max-width tablet
+    // Flip even-numbered card layout on max-width large
     &:nth-child(even) {
       .profile-img-wrapper {
         grid-column: 2;
@@ -52,7 +52,7 @@
           grid-column: 1;
         }
       }
-      @include bp(tablet) {
+      @include bp(large) {
         display: unset;
       }
     }
@@ -76,7 +76,7 @@
         grid-row-end: span 2;
         padding-bottom: unset;
       }
-      @include bp(tablet) {
+      @include bp(large) {
         margin: 0 auto 2rem;
         width: 100%;
         height: unset;
@@ -96,7 +96,7 @@
         grid-column: 2;
       }
     }
-    @include bp(tablet) {
+    @include bp(large) {
       width: 31.5%;
     }
     p {
