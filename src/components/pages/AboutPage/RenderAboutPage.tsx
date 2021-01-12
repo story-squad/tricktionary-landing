@@ -7,14 +7,9 @@ const RenderAboutPage = (): React.ReactElement => {
     <div className="about-page-wrapper">
       <Header />
       <div className="about-page">
-        <h2>About Story Squad</h2>
+        <h2>Our Mission:</h2>
         <div className="content-wrapper">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            temporibus quia assumenda! At autem, similique rem, unde praesentium
-            quas aliquam quis quae reprehenderit deserunt, eum itaque aliquid.
-            Accusamus, natus officia.
-          </p>
+          <p className="mission-statement">Get kids writing!</p>
         </div>
         <h2>Meet the Team</h2>
         <TeamProfiles />
