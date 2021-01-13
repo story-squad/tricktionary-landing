@@ -8,12 +8,13 @@ import jorgeProfile from '../../assets/jorge-profile.png';
 import lucasProfile from '../../assets/lucas-profile.png';
 import darwinProfile from '../../assets/darwin-profile.png';
 import loriProfile from '../../assets/lori-profile.png';
+import graigProfile from '../../assets/graig-profile.png';
 
 export const teamProfiles: TeamProfileItem[] = [
   {
     name: 'Graig Peterson',
     role: 'Founder',
-    photo: dragonProfile,
+    photo: graigProfile,
     bio: `Graig is a former 6th Grade teacher and PADI Divemaster who loves the Galapagos archipelago and Elizabeth Bishop’s poetry.`,
   },
   {
