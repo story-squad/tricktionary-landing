@@ -2,15 +2,12 @@ import { TeamProfileItem } from './teamProfilesTypes';
 import dragonProfile from '../../assets/dragon-profile.png';
 import benProfile from '../../assets/ben-profile.png';
 import brandonProfile from '../../assets/brandon-profile.png';
-import ajProfile from '../../assets/aj-profile.png';
 import drewProfile from '../../assets/drew-profile.png';
-import haileyProfile from '../../assets/hailey-profile.png';
-import harperProfile from '../../assets/harper-profile.png';
 import jesseProfile from '../../assets/jesse-profile.png';
 import jorgeProfile from '../../assets/jorge-profile.png';
 import lucasProfile from '../../assets/lucas-profile.png';
-import trevorProfile from '../../assets/trevor-profile.png';
 import darwinProfile from '../../assets/darwin-profile.png';
+import loriProfile from '../../assets/lori-profile.png';
 
 export const teamProfiles: TeamProfileItem[] = [
   {
@@ -42,13 +39,7 @@ export const teamProfiles: TeamProfileItem[] = [
     name: 'Logan Van Hook',
     role: 'Backend Lead',
     photo: dragonProfile,
-    bio: '',
-  },
-  {
-    name: 'AJ Gebara',
-    role: 'Backend Engineer',
-    photo: ajProfile,
-    bio: '',
+    bio: `I'm passionate and love thinking outside the box to tackle obscure problems.`,
   },
   {
     name: 'Drew Ross',
@@ -56,18 +47,6 @@ export const teamProfiles: TeamProfileItem[] = [
     photo: drewProfile,
     bio:
       'Coffee, climbing, and coding. Fullstack Engineer in the Pacific Northwest.',
-  },
-  {
-    name: 'Hailey Hansard',
-    role: 'Frontend Engineer',
-    photo: haileyProfile,
-    bio: '',
-  },
-  {
-    name: 'Harper Atlas',
-    role: 'UX/UI Desiger',
-    photo: harperProfile,
-    bio: '',
   },
   {
     name: 'Jesse Marek',
@@ -82,16 +61,16 @@ export const teamProfiles: TeamProfileItem[] = [
     bio: `I'm an individual that enjoys working collectively towards a goal. I embrace challenges and opportunities for personal growth. I see programming as an engineering tool that provides solutions that can improve many people's life, and I'm excited to be part of this promising industry.`,
   },
   {
+    name: 'Lori Schlatter',
+    role: 'Data Scientist',
+    photo: loriProfile,
+    bio: `Hailing from Missouri, Lori is loving her foray into the world of data science after working for years in the nonprofit world. She loves anything to do with peanut butter and has read the Harry Potter series more times than she can count.`,
+  },
+  {
     name: 'Lucas Greenwell',
     role: 'Growth Analyst',
     photo: lucasProfile,
     bio: `I like technology, teaching, traveling, and granola!`,
-  },
-  {
-    name: 'Trevor Martin',
-    role: 'Full Stack Engineer',
-    photo: trevorProfile,
-    bio: ``,
   },
   {
     name: 'Victoria Gu',
