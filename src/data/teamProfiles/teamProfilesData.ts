@@ -10,6 +10,7 @@ import jesseProfile from '../../assets/jesse-profile.png';
 import jorgeProfile from '../../assets/jorge-profile.png';
 import lucasProfile from '../../assets/lucas-profile.png';
 import trevorProfile from '../../assets/trevor-profile.png';
+import darwinProfile from '../../assets/darwin-profile.png';
 
 export const teamProfiles: TeamProfileItem[] = [
   {
@@ -17,6 +18,12 @@ export const teamProfiles: TeamProfileItem[] = [
     role: 'Founder',
     photo: dragonProfile,
     bio: `As a 6th Grade teacher, Graig watched the way  Fortnite and Tiktok were structuring his students' lives the moment the bell rang. He designed Story Squad to be an alternative to apps heavy on screen-time that aim to maximize a user's time-on-device; instead, Story Squad uses small servings of screen-time to maximize the time a kid spends in "imagination-mode" with a pencil in hand writing adventures and building worlds.`,
+  },
+  {
+    name: 'Darwin M. Johnson',
+    role: 'Founder',
+    photo: darwinProfile,
+    bio: ``,
   },
   {
     name: 'Benjamin Griffin',
@@ -30,6 +37,12 @@ export const teamProfiles: TeamProfileItem[] = [
     photo: brandonProfile,
     bio:
       'Full-Stack Web Developer in the Bay Area. Node, React, Deno, TypeScript.',
+  },
+  {
+    name: 'Logan Van Hook',
+    role: 'Backend Lead',
+    photo: dragonProfile,
+    bio: '',
   },
   {
     name: 'AJ Gebara',
