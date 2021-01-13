@@ -58,7 +58,7 @@ export const teamProfiles: TeamProfileItem[] = [
     name: 'Jorge Manzur',
     role: 'Frontend Engineer',
     photo: jorgeProfile,
-    bio: `I'm an individual that enjoys working collectively towards a goal. I embrace challenges and opportunities for personal growth. I see programming as an engineering tool that provides solutions that can improve many people's life, and I'm excited to be part of this promising industry.`,
+    bio: `I embrace challenges and opportunities for personal growth. I see programming as an engineering tool that provides solutions that can improve many people's lives, and I'm excited to be part of this promising industry.`,
   },
   {
     name: 'Lori Schlatter',
