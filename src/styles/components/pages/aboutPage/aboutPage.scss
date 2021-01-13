@@ -1,6 +1,8 @@
 .about-page {
   @import "/profileContainer.scss";
 
+  padding-bottom: 4rem;
+
   & > div {
     width: 800px;
     max-width: 100%;
