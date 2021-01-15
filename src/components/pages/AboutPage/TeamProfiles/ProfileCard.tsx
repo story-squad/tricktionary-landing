@@ -16,9 +16,6 @@ const ProfileCard = (props: {
           <strong>{profile.role}</strong>
         </p>
       </div>
-      <div className="profile-bio">
-        <p>{profile.bio}</p>
-      </div>
     </div>
   );
 };
