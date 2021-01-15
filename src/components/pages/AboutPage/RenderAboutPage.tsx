@@ -20,7 +20,7 @@ const RenderAboutPage = (): React.ReactElement => {
           <h3 className="mission-statement">Get kids writing!</h3>
           <p className="info-text">{infoText}</p>
         </div>
-        <h2>Meet the Team</h2>
+        <h2>Meet the Squad</h2>
         <TeamProfiles />
       </div>
     </div>
