@@ -43,6 +43,10 @@
           color: fade-out($white, 0.15);
         }
 
+        &:not(:last-of-type) {
+          margin-right: 2rem;
+        }
+
         &.active {
           text-decoration: underline;
         }

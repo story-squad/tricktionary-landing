@@ -10,6 +10,7 @@ const Header = (): React.ReactElement => {
         </h1>
         <nav>
           <a href="http://contest.storysquad.app">Play Now!</a>
+          <a href="/about">The Squad</a>
         </nav>
       </div>
     </div>

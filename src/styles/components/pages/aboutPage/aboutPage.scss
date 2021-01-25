@@ -1,0 +1,54 @@
+.about-page {
+  @import "/profileContainer.scss";
+
+  padding-bottom: 4rem;
+
+  & > div {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-family: $display-font;
+    color: $white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem auto 2rem;
+    @include text-shadow;
+    @include bp(mid) {
+      font-size: 4rem;
+    }
+    @include bp(tablet) {
+      font-size: 5rem;
+    }
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  p,
+  h3 {
+    line-height: 2rem;
+    font-family: $text-font;
+  }
+  .mission-statement {
+    margin-bottom: 2rem;
+    color: $white;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 400;
+    @include text-shadow;
+  }
+  .info-text {
+    font-weight: 300;
+    letter-spacing: 0.035rem;
+  }
+  .content-wrapper {
+    padding: 2rem;
+    background-color: $jade;
+    @include drop-shadow;
+
+    & > p {
+      color: $white;
+    }
+  }
+}
