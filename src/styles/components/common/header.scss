@@ -1,7 +1,11 @@
 .header {
-  height: 5rem;
+  height: 6rem;
   background-color: $orange;
   width: 100%;
+  .trick-logo {
+    display: block;
+    width: 100px;
+  }
   .header-content {
     margin: 0 auto;
     width: 800px;

@@ -48,7 +48,11 @@
       font-size: 3.6rem;
       line-height: 4.2rem;
     }
-
+    a {
+      @include button($orange);
+      font-size: 2rem;
+      font-style: normal;
+    }
     .typing-text {
       font-weight: 500;
     }

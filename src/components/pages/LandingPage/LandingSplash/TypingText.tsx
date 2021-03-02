@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
-const wordList: string[] = ['Turbocharge', 'Empower', 'Unleash'];
+const wordList: string[] = ['exciting', 'productive', 'fun again'];
 
 const TypingText = (): React.ReactElement => {
   const [text, setText] = useState('');
@@ -40,10 +40,14 @@ const TypingText = (): React.ReactElement => {
   return (
     <div className="typing-text-wrapper">
       <p>
+        Make your meetings
+        <br />
         <span className="typing-text">{text}</span>
         <span className={`blink${blinkerVisible ? '' : ' off'}`}>|</span>
-        <br />
-        your kid&apos;s creativity!
+      </p>
+      <br />
+      <p>
+        <a href="http://tricktionary.monster">Play Now</a>
       </p>
     </div>
   );
