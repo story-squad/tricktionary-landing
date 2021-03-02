@@ -12,7 +12,8 @@ export const teamProfiles: TeamProfileItem[] = [
     name: 'Darwin Johnson',
     role: 'Founder',
     photo: darwinProfile,
-    faveDef: '',
+    faveDef:
+      'The unstressed central vowel (as in "ago"), represented by the symbol /ə/ in the International Phonetic Alphabet',
   },
   {
     name: 'Graig Peterson',
