@@ -44,7 +44,7 @@ export const teamProfiles: TeamProfileItem[] = [
     name: 'Trevor Martin',
     role: 'Backend Engineer',
     photo: trevorProfile,
-    faveDef: 'a furry nipple',
+    faveDef: 'A type of cat',
   },
   {
     name: 'Harper Atlas',
