@@ -5,7 +5,7 @@ const PlayGame = (): React.ReactElement => {
     <div className="play-game">
       <h2>Get Started Now!</h2>
       <p>
-        <a href="http://contest.storysquad.app">Play Game</a>
+        <a href="http://tricktionary.monster">Play Game</a>
       </p>
     </div>
   );

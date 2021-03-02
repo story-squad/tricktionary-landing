@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from '../../common';
 import { TeamProfiles } from './TeamProfiles';
 
-const infoText = `Story Squad is a team of tech nerds that want to help people express themselves creatively and connect with community. We've built a few different projects, below you can see our Tricktionary team. Tricktionary is a product designed to help start off video meetings by focusing everyone and giving participants a creative outlet. We have a strong commitment to never optimize for "time-in-app", which makes it hard to raise funds. If you'd like to help us keep building you can support us on patreon`;
+const infoText = `Story Squad is a team of tech nerds that want to help people express themselves creatively and connect with community. We've built a few different projects, below you can see our Tricktionary team. Tricktionary is a product designed to help start off video meetings by focusing everyone and giving participants a creative outlet. We have a strong commitment to never optimize for "time-in-app", which makes it hard to raise funds. If you'd like to help us keep building, you can support us on patreon.`;
 
 const RenderAboutPage = (): React.ReactElement => {
   return (

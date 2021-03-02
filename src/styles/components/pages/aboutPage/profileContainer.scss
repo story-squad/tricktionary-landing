@@ -44,7 +44,7 @@
 
     // Grid layouts, media queries
     grid-template-columns: 50% 50%;
-    
+
     @include bp(mid) {
       grid-template-columns: 16rem auto;
       grid-template-rows: 5rem auto;
@@ -100,23 +100,23 @@
         grid-column: 2;
         justify-self: end;
       }
-      
+
       .profile-name-role {
         grid-area: 1;
       }
-      
+
       @include bp(mid) {
         grid-template-columns: 70% 30%;
 
         .profile-img-wrapper {
           grid-column: 2;
         }
-        
+
         .profile-name-role {
           grid-area: 1;
         }
       }
-     
+
       @include bp(large) {
         display: unset;
       }

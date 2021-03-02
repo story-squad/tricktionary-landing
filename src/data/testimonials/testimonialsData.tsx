@@ -16,7 +16,7 @@ export const testimonials: TestimonialItem[] = [
     image:
       'https://uploads-ssl.webflow.com/5e417b0e2723ecadbd74ef1d/5e4792576fdb67b797b9fcee_5.jpg',
     title: 'Lauren, HR Manager',
-    quote: <>Great remote team-building</>,
+    quote: <>This is great to use for team building! Awesome ice breaker</>,
   },
   {
     image:
@@ -24,7 +24,7 @@ export const testimonials: TestimonialItem[] = [
     title: 'Sue, Social Media Influencer',
     quote: (
       <>
-        <strong>LOL </strong>so much fun!!
+        <strong>Stylish, intuitive, and so much fun!!</strong>
       </>
     ),
   },
