@@ -1,12 +1,18 @@
+import darwinProfile from '../../assets/darwin-profile.png';
 import drewProfile from '../../assets/drew-profile.png';
 import graigProfile from '../../assets/graig-profile.png';
-import harperProfile from '../../assets/harper.jpeg';
-import kylaProfile from '../../assets/kyla.jpeg';
+import harperProfile from '../../assets/harper.png';
+import kylaProfile from '../../assets/kyla.png';
 import lucasProfile from '../../assets/lucas-profile.png';
 import trevorProfile from '../../assets/trevor.png';
 import { TeamProfileItem } from './teamProfilesTypes';
 
 export const teamProfiles: TeamProfileItem[] = [
+  {
+    name: 'Darwin Johnson',
+    role: 'Founder',
+    photo: darwinProfile,
+  },
   {
     name: 'Graig Peterson',
     role: 'Founder',

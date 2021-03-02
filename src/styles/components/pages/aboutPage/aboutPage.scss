@@ -1,5 +1,5 @@
 .about-page {
-  @import "/profileContainer.scss";
+  @import '/profileContainer.scss';
 
   padding-bottom: 4rem;
 
@@ -41,6 +41,13 @@
   .info-text {
     font-weight: 300;
     letter-spacing: 0.035rem;
+  }
+  p {
+    text-align: center;
+  }
+  a {
+    @include button($orange);
+    font-size: 2rem;
   }
   .content-wrapper {
     padding: 2rem;
