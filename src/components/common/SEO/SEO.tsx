@@ -10,7 +10,7 @@ const SEO = ({
 }: SEOProps): React.ReactElement => {
   return (
     <Helmet>
-      <title>{title ? `${title} - Story Squad` : seoConfig.title}</title>
+      <title>{title ? `${title} - Tricktionary` : seoConfig.title}</title>
       <meta property="og:title" content={title} />
       <meta name="twitter:title" content={title} />
 
