@@ -13,7 +13,7 @@ export const teamProfiles: TeamProfileItem[] = [
     role: 'Founder',
     photo: darwinProfile,
     faveDef:
-      'Schwa DOES mean: The unstressed central vowel (as in "ago"), represented by the symbol /ə/ in the International Phonetic Alphabet',
+      "Kakorrhaphobia DOES mean: The irrational fear of Walt Disney's psychoanalytic dream journal RED BOOK",
   },
   {
     name: 'Graig Peterson',
