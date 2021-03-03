@@ -1,6 +1,7 @@
 .about-page {
   @import '/profileContainer.scss';
 
+  $bg-img: url('../../../../assets/support-us-on-patreon-button.png');
   padding-bottom: 4rem;
 
   & > div {
@@ -41,6 +42,7 @@
   .info-text {
     font-weight: 300;
     letter-spacing: 0.035rem;
+    color: white;
   }
   p {
     text-align: center;
@@ -48,6 +50,7 @@
   a {
     @include button($orange);
     font-size: 2rem;
+    background-image: image($bg-img);
   }
   .content-wrapper {
     padding: 2rem;
