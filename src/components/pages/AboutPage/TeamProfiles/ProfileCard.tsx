@@ -16,7 +16,7 @@ const ProfileCard = (props: {
           <strong>{profile.role}</strong>
         </p>
         <p>
-          <strong>Favorite Definition:</strong> {profile.faveDef}
+          <strong>They Learned</strong> {profile.faveDef}
         </p>
       </div>
     </div>

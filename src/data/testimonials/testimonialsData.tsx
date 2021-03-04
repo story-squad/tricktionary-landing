@@ -5,7 +5,7 @@ export const testimonials: TestimonialItem[] = [
   {
     image:
       'https://uploads-ssl.webflow.com/5e417b0e2723ecadbd74ef1d/5e418e78bd635cc62feb3768_b.jpg',
-    title: 'Bob, 11th Grader Teacher',
+    title: 'Bob, 11th Grade Teacher',
     quote: (
       <>
         <strong>Best app of the pandemic</strong>

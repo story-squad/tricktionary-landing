@@ -13,7 +13,7 @@ export const teamProfiles: TeamProfileItem[] = [
     role: 'Founder',
     photo: darwinProfile,
     faveDef:
-      "Kakorrhaphobia DOES mean: The irrational fear of Walt Disney's psychoanalytic dream journal RED BOOK",
+      "Kakorrhaphobia does NOT mean: The irrational fear of Walt Disney's psychoanalytic dream journal RED BOOK",
   },
   {
     name: 'Graig Peterson',
